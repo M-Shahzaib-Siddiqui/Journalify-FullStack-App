@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.background {
+  position: absolute;
+  background: linear-gradient(to right, #116399, #38caef);
+  height:fit-content;
+  width: 100%;
+  min-height: 100%;
+  left:0;
+}
+
+/* Styles for the notes section */
+  .notes-section {
+    margin-bottom: 2rem;
+  }
+  
+  .notes-section h2 {
+    color: #034069;
+    font-size: 24px;
+  }
+  
+  /* Styles for individual notes - assuming your Note component has some container element */
+  .note {
+    background-color: #f9f9f9;
+    border-left: 5px solid #007bff;
+    margin: 10px 0;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+
+  .heading {
+    width: 100%;
+    text-align: center;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #646464;
+  }
+
+  /* Styles for the .create section */
+  .create {
+    background-color: #fff;
+    padding: 20px;
+    padding: 0 30px 0 30px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: auto;
+    border: solid 6px #034069;
+  }
+  
+  .create label {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .create input,
+  .create textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .create input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  .create input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+
+  .create input {
+    border: none;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-size: 40px;
+  }
+
+ .create textarea {
+    border: none;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    resize: none;
+    height: 200px;
+    overflow: auto;
+  }
+
+.journals-section {
+  margin-top: 40px;
+  width: 100%;
+  border-top: solid 6px #034069;
+  background-color: white;
+}
+
+.heading {
+  padding: 30px 0 30px 0;
+}
+
+.notes {
+  display: flex;
+  flex-wrap: wrap;
+}
